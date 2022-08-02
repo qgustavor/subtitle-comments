@@ -14,7 +14,7 @@ Also because they also leave a lot of inside jokes too.
 
 Run `node index.js *.ass` and it will create a `*.comments.js` for every file matched.
 
-## Programatic usage
+## Programmatic usage
 
 ```javascript
 const generateSubtitleComments = require('./path/to/index.js')
