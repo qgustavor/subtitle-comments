@@ -19,9 +19,8 @@ Run `node index.js *.ass` and it will create a `*.comments.js` for every file ma
 ```javascript
 const generateSubtitleComments = require('./path/to/index.js')
 
-generateSubtitleComments([ 'file 1.ass', 'file 2.ass' ]).then(() => {
+generateSubtitleComments([ 'file 1.ass', 'file 2.ass' ], targetFolder).then(() => {
   // It creates a `.comments.js` file for each source file
+  // If targetFolder is not specified it will save to the same folder as the input
 })
 ```
-
-Want a NPM package? Open an issue. Want a better programatic API? Open a pull request.
